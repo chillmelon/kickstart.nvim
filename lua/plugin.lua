@@ -34,8 +34,8 @@ require('lazy').setup {
   ---- Useful
   require 'plugins.telescope',
   require 'plugins.treesitter',
-  --require("plugins.gitsigns"),
-  --require("plugins.oil"),
+  require 'plugins.gitsigns',
+  require 'plugins.oil',
 
   ---- Live Coding
   --require("plugins.tidal"),
