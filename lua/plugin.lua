@@ -29,13 +29,14 @@ require('lazy').setup {
   require 'plugins.cmp',
 
   ---- Note Taking
-  --require("plugins.obsidian"),
+  require 'plugins.obsidian',
 
   ---- Useful
   require 'plugins.telescope',
   require 'plugins.treesitter',
   require 'plugins.gitsigns',
   require 'plugins.oil',
+  require 'plugins.todo-comments',
 
   ---- Live Coding
   --require("plugins.tidal"),

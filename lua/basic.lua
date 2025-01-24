@@ -10,6 +10,7 @@ vim.o.termguicolors = true
 vim.o.swapfile = false
 vim.o.clipboard = 'unnamedplus'
 vim.o.showmode = false
+vim.opt_local.conceallevel = 1
 
 -- UI
 vim.o.number = true
