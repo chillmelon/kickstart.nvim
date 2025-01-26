@@ -37,6 +37,7 @@ require('lazy').setup {
   require 'plugins.gitsigns',
   require 'plugins.oil',
   require 'plugins.todo-comments',
+  require 'plugins.which-key',
 
   ---- Live Coding
   --require("plugins.tidal"),

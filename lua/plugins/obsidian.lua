@@ -16,6 +16,9 @@ return {
 
     -- see below for full list of optional dependencies 👇
   },
+  config = function()
+    vim.api.nvim_set_keymap('n', '<leader>on', ':NvimTreeFindFile<CR>', { noremap = true })
+  end,
   opts = {
     workspaces = {
       {
@@ -51,7 +54,7 @@ return {
     ---@return string
     note_id_func = function(title)
       local suffix = ''
-      -- get current ISO datetime with -5 hour offset from UTC for EST
+      -- get current ISO datetime with +8 hour offset from UTC for Asia/Taipei
       local current_datetime = os.date('!%Y-%m-%d-%H%M%S', os.time() + 8 * 3600)
       if title ~= nil then
         suffix = title:gsub(' ', '-'):gsub('[^A-Za-z0-9-]', ''):lower()
