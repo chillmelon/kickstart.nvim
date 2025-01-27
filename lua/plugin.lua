@@ -10,7 +10,7 @@ require('lazy').setup {
   },
 
   'preservim/nerdcommenter',
-  'tpope/vim-fugitive',
+  --'tpope/vim-fugitive',
   'tpope/vim-surround',
   'tpope/vim-repeat',
 
@@ -25,6 +25,9 @@ require('lazy').setup {
   require 'plugins.ibl',
   require 'plugins.conform',
 
+  ---- Git
+  require 'plugins.git',
+
   ---- Completion
   require 'plugins.cmp',
 
@@ -34,10 +37,11 @@ require('lazy').setup {
   ---- Useful
   require 'plugins.telescope',
   require 'plugins.treesitter',
-  require 'plugins.gitsigns',
+  --require 'plugins.gitsigns',
   require 'plugins.oil',
   require 'plugins.todo-comments',
   require 'plugins.which-key',
+  require 'plugins.vimtex',
 
   ---- Live Coding
   --require("plugins.tidal"),
