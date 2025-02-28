@@ -23,7 +23,7 @@ return {
     workspaces = {
       {
         name = 'vaults',
-        path = '~/iCloudDrive/Documents/vaults',
+        path = '~/iCloudDrive/iCloud~md~obsidian/vaults',
       },
     },
     notes_subdir = '0-inbox',

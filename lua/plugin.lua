@@ -24,6 +24,8 @@ require('lazy').setup {
   require 'plugins.lsp',
   require 'plugins.ibl',
   require 'plugins.conform',
+  require 'plugins.codeium',
+  require 'plugins.tailwind-tools',
 
   ---- Git
   require 'plugins.git',
